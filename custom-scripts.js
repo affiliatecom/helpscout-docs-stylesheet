@@ -36,7 +36,7 @@
         }
     }
 
-    function convertImagesToLightboxLinks(): void {
+    function convertImagesToLightboxLinks() {
        alert('done loading');
     }
 
