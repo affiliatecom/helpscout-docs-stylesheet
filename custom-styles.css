@@ -1673,3 +1673,8 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
     margin: 0 !important;
     font-size: 14.5px !important;
 }
+
+article > h2 > a,
+article > h3 > a {
+color: #222222;
+}
