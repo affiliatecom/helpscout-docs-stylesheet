@@ -1679,14 +1679,20 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
     color: #222222;
     cursor: pointer;
     display: block;
+    text-underline: none;
+}
+
+.contentWrapper > article > h2 > a:hover,
+.contentWrapper > article > h3 > a:hover {
+    text-decoration: none;
+    color: #222;
 }
 
 .contentWrapper > article > h2 > a:before,
 .contentWrapper > article > h3 > a:before {
     content: "🔗";
-    margin-left: -36px;
-    padding-right: 10px;
     display: none;
+    padding-left: 8px;
 }
 
 .contentWrapper > article > h2 > a:hover::before,
