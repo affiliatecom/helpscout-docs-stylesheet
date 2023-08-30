@@ -1690,9 +1690,11 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
 
 .contentWrapper > article > h2 > a:after,
 .contentWrapper > article > h3 > a:after {
-    content: "🔗";
+    content: "#";
     display: none;
     padding-left: 8px;
+    font-weight: 100;
+    line-height: 2rem;
 }
 
 .contentWrapper > article > h2 > a:hover::after,
