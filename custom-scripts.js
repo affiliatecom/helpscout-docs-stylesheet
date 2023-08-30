@@ -37,7 +37,10 @@
     }
 
     function convertImagesToLightboxLinks() {
-       alert('done loading');
+        $("img").each(function () {
+            let src = $(this).attr('src');
+            $(this).wrapInner('<a href="' + src + '" target="_blank" class="img-link"></a>');
+        });
     }
 
     if (window.addEventListener) {
