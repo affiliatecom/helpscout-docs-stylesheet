@@ -1694,7 +1694,7 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
     display: none;
     padding-left: 8px;
     font-weight: 100;
-    line-height: 2rem;
+    color: #dcdcdc;
 }
 
 .contentWrapper > article > h2 > a:hover::after,
