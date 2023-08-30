@@ -36,18 +36,9 @@
         }
     }
 
-    function convertImagesToLightboxLinks() {
-        $("img").each(function () {
-            let src = $(this).attr('src');
-            $(this).wrap('<a data-fslightbox href="' + src + '" class="img-link"></a>');
-        });
-    }
-
     if (window.addEventListener) {
         window.addEventListener('load', generateToc, false);
-        // window.addEventListener('load', convertImagesToLightboxLinks, false);
     } else if (window.attachEvent) {
         window.attachEvent('onload', generateToc);
-        // window.attachEvent('onload', convertImagesToLightboxLinks);
     }
 })()
