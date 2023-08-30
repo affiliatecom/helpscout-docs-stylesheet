@@ -37,7 +37,7 @@
     }
 
     function convertImagesToLightboxLinks() {
-        $.getScript("//taupe-gelato-48df97.netlify.app/fslightbox.js");
+        // $.getScript("//taupe-gelato-48df97.netlify.app/fslightbox.js");
         $("img").each(function () {
             let src = $(this).attr('src');
             $(this).wrap('<a data-fslightbox href="' + src + '" class="img-link"></a>');
