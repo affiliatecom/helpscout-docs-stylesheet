@@ -37,7 +37,6 @@
     }
 
     function convertImagesToLightboxLinks() {
-        // $.getScript("//taupe-gelato-48df97.netlify.app/fslightbox.js");
         $("img").each(function () {
             let src = $(this).attr('src');
             $(this).wrap('<a data-fslightbox href="' + src + '" class="img-link"></a>');
@@ -46,9 +45,9 @@
 
     if (window.addEventListener) {
         window.addEventListener('load', generateToc, false);
-        window.addEventListener('load', convertImagesToLightboxLinks, false);
+        // window.addEventListener('load', convertImagesToLightboxLinks, false);
     } else if (window.attachEvent) {
         window.attachEvent('onload', generateToc);
-        window.attachEvent('onload', convertImagesToLightboxLinks);
+        // window.attachEvent('onload', convertImagesToLightboxLinks);
     }
 })()
