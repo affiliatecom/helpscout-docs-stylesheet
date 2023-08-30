@@ -67,7 +67,7 @@ strong {
 
 footer p {
     font-size: 13px;
-    color: red;
+    color: #556575;
 }
 
 footer p a {
@@ -88,9 +88,9 @@ footer p a {
     background-color: #FFF;
     border: none;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 0px 1px,
-    rgb(241, 243, 245) 0px 2px 10px 0px,
-    rgba(0, 0, 0, 0.05) 0px 3px 3px 0px;
+    box-shadow: rgba(0, 0, 0, 0.03) 0 0 0 1px,
+    rgb(241, 243, 245) 0 2px 10px 0,
+    rgba(0, 0, 0, 0.05) 0 3px 3px 0;
     box-sizing: border-box;
     display: inline-block;
     margin: 0 30px 30px 0;
@@ -109,9 +109,9 @@ footer p a {
 
 .category-list .category:hover {
     background-color: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 1px,
-    rgba(220, 223, 226, 0.3) 0px 30px 60px 0px,
-    rgba(0, 0, 0, 0.1) 0px 8px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 0 0 1px,
+    rgba(220, 223, 226, 0.3) 0 30px 60px 0,
+    rgba(0, 0, 0, 0.1) 0 8px 20px 0;
 }
 
 /*.category-list .category:active {
@@ -412,10 +412,9 @@ footer p a {
     background-color: #d3d6ff;
     margin-bottom: 80px;
     padding: 0;
-    position: relative;
 }
 
-#docsSearch::before.
+#docsSearch::before,
 #docsSearch::after {
     pointer-events: none;
 }
@@ -583,7 +582,7 @@ input::placeholder {
 }
 
 input:focus, textarea:focus {
-    box-shadow: 0 0 0px 1px #1292EE inset !important;
+    box-shadow: 0 0 0 1px #1292EE inset !important;
     border-color: #1292EE !important;
 }
 
@@ -600,7 +599,6 @@ input[type=submit] {
     background: #38408b;
     font-weight: 500;
     font-size: 17px;
-    width: 160px;
     border-radius: 4px;
     color: white;
     height: 42px;
@@ -714,9 +712,9 @@ input[type=submit] {
     border: 0;
     border-radius: 4px;
     color: #556575;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
-    rgb(241, 243, 245) 0px 5px 20px 0px,
-    rgba(0, 0, 0, 0.05) 0px 3px 3px 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 0 0 1px,
+    rgb(241, 243, 245) 0 5px 20px 0,
+    rgba(0, 0, 0, 0.05) 0 3px 3px 0;
     padding: 30px;
     word-break: break-word;
 }
@@ -889,7 +887,7 @@ a:hover {
     background: #F9FAFA;
     border-left: 4px solid #AAAEB7;
     margin: 3em 0;
-    padding: 15px 0px;
+    padding: 15px 0;
 }
 
 #fullArticle .index-list:before,
@@ -905,7 +903,7 @@ a:hover {
 
 #fullArticle .index-list ul {
     list-style: none;
-    margin: 0.7em 25px 0em 0;
+    margin: 0.7em 25px 0 0;
     float: left;
     width: 100%;
 }
@@ -1098,7 +1096,6 @@ a:hover {
 
 #fullArticle .private-note {
     background: #fff6e3 url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--lock.svg') no-repeat top 18px right 18px;
-    background-repeat: no-repeat;
     padding: 20px 24px;
 }
 
@@ -1201,7 +1198,6 @@ strong, b {
     line-height: 1.5;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 #serp-dd {
@@ -1527,7 +1523,6 @@ strong, b {
 #fullArticle .demo-styles h5 {
     margin: 9px 0;
     font-family: inherit;
-    font-weight: 700;
     line-height: 18px;
     letter-spacing: 0;
     font-weight: 500;
