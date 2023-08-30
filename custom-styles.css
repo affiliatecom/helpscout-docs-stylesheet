@@ -1679,7 +1679,7 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
     color: #222222;
     cursor: pointer;
     display: block;
-    text-underline: none;
+    text-decoration: none;
 }
 
 .contentWrapper > article > h2 > a:hover,
