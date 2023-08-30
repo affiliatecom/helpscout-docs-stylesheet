@@ -39,7 +39,7 @@
     function convertImagesToLightboxLinks() {
         $("img").each(function () {
             let src = $(this).attr('src');
-            $(this).wrap('<a href="' + src + '" target="_blank" class="img-link"></a>');
+            $(this).wrap('<a data-fslightbox href="' + src + '" class="img-link"></a>');
         });
     }
 
