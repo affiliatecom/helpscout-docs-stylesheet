@@ -824,8 +824,8 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     #fullArticle h3 {
-        font-size: 22px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 
@@ -1684,8 +1684,16 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
 .contentWrapper > article > h2 > a:before,
 .contentWrapper > article > h3 > a:before {
     content: "🔗";
-    margin-left: -40px;
+    margin-left: -36px;
+    padding-right: 10px;
+    display: none;
 }
+
+.contentWrapper > article > h2 > a:hover::before,
+.contentWrapper > article > h3 > a:hover::before {
+    display: inline;
+}
+
 
 
 
