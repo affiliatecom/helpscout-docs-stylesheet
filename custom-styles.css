@@ -1674,7 +1674,7 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
     font-size: 14.5px !important;
 }
 
-article > h2 > a,
-article > h3 > a {
-color: #222222;
+.contentWrapper > article > h2 > a,
+.contentWrapper > article > h3 > a {
+    color: #222222;
 }
