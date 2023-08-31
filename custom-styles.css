@@ -124,7 +124,7 @@ footer p a {
 }
 
 .category-list .category:focus .article-count, .category-list .category:active .article-count {
-    color: #005CA4;
+    color: #3a2c81;
 }
 
 @media screen and (max-width: 759px) {
@@ -750,7 +750,7 @@ input[type=submit] {
 
 .contentWrapper a:hover,
 a:hover {
-    color: #005CA4;
+    color: #3a2c81;
     text-decoration: underline;
 }
 
@@ -960,7 +960,7 @@ a:hover {
 }
 
 .articleList li a:hover span {
-    color: #005CA4;
+    color: #3a2c81;
     text-decoration: none;
 }
 
@@ -1104,7 +1104,7 @@ a:hover {
 }
 
 #fullArticle a:hover, #fullArticle a:focus {
-    color: #005CA4;
+    color: #3a2c81;
 }
 
 #fullArticle strong {
@@ -1219,7 +1219,7 @@ strong, b {
 }
 
 #serp-dd .result > li.active a {
-    color: #005CA4 !important;
+    color: #3a2c81 !important;
 }
 
 #serp-dd.sb {
@@ -1379,7 +1379,7 @@ strong, b {
 
 .appMessage {
     background: #D6EDFF;
-    color: #005CA4;
+    color: #3a2c81;
     font-size: 14px !important;
     padding: 12px 30px;
 }
