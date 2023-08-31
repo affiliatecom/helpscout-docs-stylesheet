@@ -120,7 +120,7 @@ footer p a {
 }*/
 
 .category-list .category:hover .article-count {
-    color: #0077CC;
+    color: #443399;
 }
 
 .category-list .category:focus .article-count, .category-list .category:active .article-count {
@@ -174,7 +174,7 @@ footer p a {
 
 .category-list .category .article-count {
     margin-bottom: 0;
-    color: #0077CC;
+    color: #443399;
     transition: color 0.2s ease-in-out;
 }
 
@@ -745,7 +745,7 @@ input[type=submit] {
 }
 
 .contentWrapper a, a {
-    color: #0077CC;
+    color: #443399;
 }
 
 .contentWrapper a:hover,
@@ -802,7 +802,7 @@ a:hover {
 }
 
 #fullArticle a strong {
-    color: #0077CC;
+    color: #443399;
 }
 
 #fullArticle li {
@@ -1009,7 +1009,7 @@ a:hover {
 }
 
 #sidebar .nav-list a:hover {
-    color: #0077CC;
+    color: #443399;
 }
 
 #sidebar .nav-list .active a,
@@ -1112,7 +1112,7 @@ a:hover {
 }
 
 #fullArticle strong a {
-    color: #0077CC;
+    color: #443399;
 }
 
 .articleFoot p, .articleFoot time {
