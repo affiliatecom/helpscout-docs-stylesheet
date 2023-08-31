@@ -446,9 +446,9 @@ footer p a {
 
 @media screen and (min-width: 1025px) {
     #docsSearch::before {
-        background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-left.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+        /*background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-left.jpg');*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
         bottom: 0;
         content: "";
         height: 100%;
@@ -461,9 +461,9 @@ footer p a {
     }
 
     #docsSearch::after {
-        background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-right.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+        /*background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-right.jpg');*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
         bottom: 0;
         content: "";
         height: 100%;
