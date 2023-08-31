@@ -311,10 +311,10 @@ footer p a {
 }
 
 .navbar .brand {
-    background: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/hs-logo--white.svg') no-repeat;
+    background: url('https://res.cloudinary.com/dpq5gf23t/image/upload/v1693494874/Logos/logo-white_iqgder.svg') no-repeat;
     background-size: 100%, auto;
     height: 30px;
-    width: 150px;
+    width: 217px;
     padding: 0;
     margin-top: 29px;
 }
