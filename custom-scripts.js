@@ -10,7 +10,7 @@
         let h2_count = 0;
         let li = '';
 
-        $("h2,h3").each(function () {
+        $("article > h2, article > h3").each(function () {
 
             // Update heading index value.
             h_count++;
